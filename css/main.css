@@ -4,11 +4,31 @@
     max-height: 500px;
     object-fit: cover;
   }
-.carousel-indicators-top{
-  position: absolute;
-  top: 20px;
-  left: 50%;
+  
+.carousel-indicators-top {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
 
+
+.carousel-indicators-top li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
 }
 .carousel-indicators-top .activetop{
   width: 12px;
